@@ -36,3 +36,83 @@ button {
   padding: 0.5rem 1rem;
   font-weight: bold;
 }
+
+.navbar {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.nav-item {
+  margin-right: 1rem;
+}
+
+.nav-item:last-child {
+  margin-right: 0;
+}
+
+.nav-item a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.auth {
+  margin-left: auto;
+}
+
+.auth a {
+  color: #fff;
+  background-color: #333;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+}
+
+.auth a:hover {
+  background-color: #666;
+}
+
+.auth span {
+  color: #ccc;
+  margin: 0 0.5rem;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+button {
+  background-color: #0070f3;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+button:hover {
+  background-color: #0961c1;
+}
